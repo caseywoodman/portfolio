@@ -23,10 +23,10 @@ body {
 
 header {
     background: url(../images/header\ background.jpeg);
-    background-position-y: -150px;
+    background-position-y: 0;
+    background-size: cover;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 header,
@@ -43,12 +43,23 @@ main {
 
 
 /* classes */
-.img {
+.crop {
     width: 150px;
     height: 150px;
-    object-fit: cover;
+    position: relative;
+    overflow: hidden;
     border-radius: 50%;
 
+
+}
+
+.headerpic {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -33px;
+    margin-top: -40px;
+    height: 220%;
+    width: auto;
 }
 
 .mt- {
@@ -57,4 +68,40 @@ main {
 
 .mt {
     margin-top: 1.5rem;
+}
+
+.ml25 {
+    margin-left: 25%
+}
+
+
+
+/* flex */
+.f-column {
+    flex-direction: column;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.d-f {
+    display: flex;
+}
+
+.j-cen {
+    justify-content: center;
+}
+
+.j-bet {
+    justify-content: space-between;
+}
+
+.j-sp {
+    justify-content: space-around;
+}
+
+
+.a-cen {
+    align-items: center;
 }
