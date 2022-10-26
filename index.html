@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- TODO
+1. Background Image set to 50% Opacity but not the header content
+2. About me Selectors (Family, Work Experience, Hobbies)
+3. Sample work section
+4. Contact Section 
+5. Develop Footer -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casey Woodman's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-        <himage class="d-f f-column ml25 crop">
-            <!-- Headshot to the left -->
-            <img src="./assets/images/Woodman Headshot.JPG" alt="Casey Woodman Headshot" class="headerpic">
-        </himage>
-        <!-- My Name top bar -->
-        <h1>Casey Woodman</h1>
-
+    <header class="pb- headerbkg">
+        <div class="d-f f-row a-fe p-1l p-1r p-1t trans1">
+            <himage class="d-f f-column crop">
+                <!-- Headshot to the left -->
+                <img src="./assets/images/Woodman Headshot.JPG" alt="Casey Woodman Headshot" class="headerpic">
+            </himage>
+            <!-- My Name top bar -->
+            <div>
+                <h1 class="bgc-black c-white m0 p-1">Casey Woodman</h1>
+            </div>
+        </div>
         <!-- Navigation bottom level "ABOUT / WORK / CONTACT"-->
-        <nav class="d-f j-bet">
-            <a href="#about">About</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact</a>
+        <nav class="d-f j-fe">
+            <a href="#about" class="bgc-black bdr-tr bdr-bl c-white mr- ml- p-1 textnorm">About</a>
+            <a href="#work" class="bgc-black bdr-tr bdr-bl c-white mr- ml- p-1 textnorm">Work</a>
+            <a href="#contact" class="bgc-black bdr-tr bdr-bl c-white mr- ml- p-1 textnorm">Contact</a>
         </nav>
+
     </header>
 
 
