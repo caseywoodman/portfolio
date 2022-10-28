@@ -18,6 +18,10 @@ body {
     padding: 0;
 }
 
+section {
+    max-width: 1200px;
+}
+
 /* element selectors */
 body {
     display: flex;
@@ -39,6 +43,10 @@ footer {
 main {
     flex-grow: 1;
 
+}
+
+img {
+    width: 100%;
 }
 
 
@@ -115,6 +123,19 @@ main {
     color: white;
 }
 
+/* Font */
+.fnt12 {
+    font-size: 12px;
+}
+
+.fnt6 {
+    font-size: 6px;
+}
+
+.fnt18 {
+    font-size: 18px;
+}
+
 /* Flex */
 .d-f {
     display: flex;
@@ -126,6 +147,23 @@ main {
 
 .f-row {
     flex-direction: row;
+}
+
+.f-g1 {
+    flex-grow: 1;
+}
+
+.f-s0 {
+    flex-shrink: 0;
+}
+
+.f-bauto {
+    flex-basis: auto;
+}
+
+/* Gap */
+.gap1 {
+    gap: 1rem;
 }
 
 /* justify */
@@ -188,6 +226,10 @@ main {
 
 .ml25 {
     margin-left: 25%
+}
+
+.mauto {
+    margin: auto;
 }
 
 /* Opacity */
@@ -264,6 +306,15 @@ main {
     padding-left: .5rem;
 }
 
+/* Positioning */
+.pos-rel {
+    position: relative;
+}
+
+.top-50p {
+    top: -50%;
+}
+
 /* Text */
 .tsh {
     text-shadow: 2px 2px 4px black;
@@ -271,4 +322,17 @@ main {
 
 .textnorm {
     text-decoration: none;
+}
+
+.ta-cen {
+    text-align: center;
+}
+
+/* Width */
+.wd13 {
+    width: 33%;
+}
+
+.wd100 {
+    width: 100%;
 }
