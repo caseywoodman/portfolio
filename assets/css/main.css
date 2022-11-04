@@ -369,6 +369,7 @@ img {
     bottom: 5%;
 }
 
+
 /* Text */
 .tsh {
     text-shadow: 2px 2px 4px black;
@@ -405,6 +406,10 @@ img {
 
     .headerTitle {
         align-items: center;
+        flex-direction: column;
+    }
+
+    .workorganize {
         flex-direction: column;
     }
 }
